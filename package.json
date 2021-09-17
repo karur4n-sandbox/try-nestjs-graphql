@@ -1,0 +1,30 @@
+{
+  "name": "try-nestjs-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "start:debug": "nest start --debug --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^8.0.6",
+    "@nestjs/core": "^8.0.6",
+    "@nestjs/graphql": "^9.0.4",
+    "@nestjs/platform-express": "^8.0.6",
+    "apollo-server-express": "^3.3.0",
+    "class-transformer": "^0.4.0",
+    "class-validator": "^0.13.1",
+    "graphql": "^15.5.3",
+    "graphql-subscriptions": "^1.2.1",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.3.0"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^8.1.1"
+  }
+}
